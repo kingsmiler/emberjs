@@ -1,0 +1,9 @@
+<ul>
+  {{#each album in this}}
+  <li>
+    {{#link-to "album" album}}
+       {{album.title}} ({{album.year}})
+    {{/link-to}}
+  </li>
+  {{/each}}
+</ul>

@@ -1,0 +1,11 @@
+<h1>{{title}} ({{year}})</h1>
+
+<p>
+  Artist: {{artist.name}}
+</p>
+
+<ul>
+  {{#each track in tracks}}
+    <li>{{track.number}} - {{track.title}}</li>
+  {{/each}}
+</ul>
